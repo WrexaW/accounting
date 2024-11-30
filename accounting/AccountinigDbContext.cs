@@ -13,7 +13,7 @@ namespace accounting
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=130.185.75.54;Database=Accounting;Encrypt=false;user id = i3center-1561 ; password = 123");
+            optionsBuilder.UseSqlServer("server=130.185.75.54;Database=Accounting;Encrypt=false;user id = i3center-1561 ; password = ");
             base.OnConfiguring(optionsBuilder);
         }
     }
